@@ -7,7 +7,6 @@ import stripe from "@/lib/stripe";
 import { auth } from "@clerk/nextjs/server";
 
 export async function createCheckoutSession(userDetails: UserDetails) {
-  auth().protect();
   const { userId } = await auth();
 
   if (!userId) {

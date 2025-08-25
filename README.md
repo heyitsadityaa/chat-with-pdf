@@ -1,39 +1,35 @@
-# Chat with PDF
-
-[Link of the Deployed Project.](https://chat-with-pdf-heyitsadityaa-adityas-projects-b1f0cfa2.vercel.app/)
+# Chat with PDF 📄💬
 
 Chat with PDF is a TypeScript-based project that allows users to interact with PDF documents through a chat interface. This project leverages Node.js and various npm packages to provide a seamless experience for parsing and querying PDF content.
 
-## Table of Contents
+## Project Demo 🎥
 
-- [Installation](#installation)
+[chat-with-pdfs-demo](https://github.com/user-attachments/assets/d369030e-cbc6-44a0-a936-ab69a3539bf0)
+
+<div align="center">
+
+## Badges 🏷️
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+
+</div>
+
+## Table of Contents 📋
+
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used in Chat with PDF](#technologies-used-in-chat-with-pdf)
 
-## Installation
-
-To get started with Chat with PDF, follow these steps:
-
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/your-username/chat-with-pdf.git
-   cd chat-with-pdf
-   ```
-
-2. Install the dependencies:
-
-   ```sh
-   npm install
-   ```
-
-3. Build the project:
-   ```sh
-   npm run build
-   ```
-
-## Usage
+## Usage 🚀
 
 After installing the dependencies and building the project, you can start the application with:
 
@@ -41,61 +37,79 @@ After installing the dependencies and building the project, you can start the ap
 npm start
 ```
 
-# Technologies Used in Chat with PDF
+## Features ✨
 
-## Core Technologies
+- **PDF Upload and Processing** 📤: Upload PDF documents and parse them for content extraction
+- **Interactive Chat Interface** 💭: Engage in conversations about the uploaded PDF content
+- **AI-Powered Document Analysis** 🤖: Leverage LangChain and AI models to understand and answer questions about PDF documents
+- **Vector Database Integration** 🗄️: Use Pinecone for efficient document similarity search and retrieval
+- **User Authentication** 🔐: Secure user authentication and session management with Clerk
+- **Payment Integration** 💳: Stripe integration for premium features and subscriptions
+- **Real-time Chat** ⚡: Live chat functionality with markdown support for rich text formatting
+- **File Management** 📁: Drag-and-drop file upload with Firebase storage integration
+- **Responsive Design** 📱: Modern, mobile-friendly UI built with Tailwind CSS and Radix UI components
+- **Document Preview** 👀: View PDF documents directly in the browser using React PDF
+- **Toast Notifications** 🔔: User feedback through interactive toast messages
+- **Type Safety** 🛡️: Full TypeScript implementation for enhanced development experience
 
-1. **Next.js**: React framework for server-side rendering and static site generation.
-2. **React**: JavaScript library for building user interfaces.
-3. **TypeScript**: Superset of JavaScript that adds static typing.
+# Technologies Used in Chat with PDF 🛠️
 
-## PDF Handling
+## Core Technologies ⚡
 
-4. **pdf-parse**: Library for parsing PDF files.
-5. **@react-pdf/renderer**: Library for rendering PDFs in React.
-6. **react-pdf**: Library for displaying PDFs in React.
+1. **Next.js** ⚛️: React framework for server-side rendering and static site generation.
+2. **React** 🔵: JavaScript library for building user interfaces.
+3. **TypeScript** 💙: Superset of JavaScript that adds static typing.
 
-## Authentication and Database
+## PDF Handling 📄
 
-7. **@clerk/nextjs**: Authentication library for Next.js.
-8. **@clerk/elements**: UI components for Clerk authentication.
-9. **firebase**: Backend-as-a-service for building web and mobile applications.
-10. **firebase-admin**: Firebase Admin SDK for server-side operations.
-11. **@pinecone-database/pinecone**: Pinecone database client.
-12. **@langchain/pinecone**: Integration for Pinecone with LangChain.
-13. **@langchain/community**: Community package for LangChain.
+4. **pdf-parse** 🔍: Library for parsing PDF files.
+5. **@react-pdf/renderer** 🎨: Library for rendering PDFs in React.
+6. **react-pdf** 📖: Library for displaying PDFs in React.
 
-## UI Components and Styling
+## Authentication and Database 🔐
 
-14. **@radix-ui/react-label**: Radix UI component for labels.
-15. **@radix-ui/react-slot**: Radix UI component for slots.
-16. **@radix-ui/react-toast**: Radix UI component for toasts.
-17. **lucide-react**: Icon library for React.
-18. **react-dropzone**: Library for file dropzone components.
-19. **react-markdown**: Library for rendering Markdown in React.
-20. **daisyui**: Tailwind CSS component library.
-21. **tailwindcss**: Utility-first CSS framework.
-22. **tailwind-merge**: Utility for merging Tailwind CSS classes.
-23. **tailwindcss-animate**: Tailwind CSS plugin for animations.
-24. **clsx**: Utility for constructing `className` strings conditionally.
+7. **@clerk/nextjs** 👤: Authentication library for Next.js.
+8. **@clerk/elements** 🧩: UI components for Clerk authentication.
+9. **firebase** 🔥: Backend-as-a-service for building web and mobile applications.
+10. **firebase-admin** 👨‍💼: Firebase Admin SDK for server-side operations.
+11. **@pinecone-database/pinecone** 🌲: Pinecone database client.
+12. **@langchain/pinecone** 🔗: Integration for Pinecone with LangChain.
+13. **@langchain/community** 👥: Community package for LangChain.
 
-## Payment Processing
+## AI and Language Processing 🤖
 
-25. **stripe**: Stripe API client for server-side operations.
-26. **@stripe/stripe-js**: Stripe.js library for client-side operations.
+14. **@langchain/openai** 🧠: OpenAI integration for LangChain.
+15. **openai** 🤖: OpenAI API client.
+16. **langchain** 🔗: Framework for developing applications with language models.
 
-## Utility Libraries
+## UI Components and Styling 🎨
 
-27. **byte-size**: Library for formatting byte sizes.
-28. **uuid**: Library for generating UUIDs.
+17. **lucide-react** ✨: Icon library for React.
+18. **react-dropzone** 📤: Library for file dropzone components.
+19. **react-markdown** 📝: Library for rendering Markdown in React.
+20. **daisyui** 🌸: Tailwind CSS component library.
+21. **tailwindcss** 🌊: Utility-first CSS framework.
+22. **tailwind-merge** 🔄: Utility for merging Tailwind CSS classes.
+23. **tailwindcss-animate** 🎭: Tailwind CSS plugin for animations.
+24. **clsx** 🔧: Utility for constructing `className` strings conditionally.
 
-## Development Tools
+## Payment Processing 💰
 
-29. **eslint**: Linting utility for JavaScript and TypeScript.
-30. **eslint-config-next**: ESLint configuration for Next.js.
-31. **postcss**: Tool for transforming CSS with JavaScript plugins.
-32. **typescript**: TypeScript compiler.
-33. **@types/node**: Type definitions for Node.js.
-34. **@types/react**: Type definitions for React.
-35. **@types/react-dom**: Type definitions for React DOM.
-36. **@types/uuid**: Type definitions for UUID.
+25. **stripe** 💳: Stripe API client for server-side operations.
+26. **@stripe/stripe-js** 💻: Stripe.js library for client-side operations.
+
+## Utility Libraries 🔧
+
+27. **byte-size** 📊: Library for formatting byte sizes.
+28. **uuid** 🆔: Library for generating UUIDs.
+
+## Development Tools 🛠️
+
+29. **eslint** 🔍: Linting utility for JavaScript and TypeScript.
+30. **eslint-config-next** ⚙️: ESLint configuration for Next.js.
+31. **postcss** 🎨: Tool for transforming CSS with JavaScript plugins.
+32. **typescript** 📘: TypeScript compiler.
+33. **@types/node** 🟢: Type definitions for Node.js.
+34. **@types/react** ⚛️: Type definitions for React.
+35. **@types/react-dom** 🌐: Type definitions for React DOM.
+36. **@types/uuid** 🔤: Type definitions for UUID.
